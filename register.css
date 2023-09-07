@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.textt {
+    color: #70C05B;
+    bottom: 220px;
+    position: absolute;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(80,72,72,0.4),rgba(80,72,72,0.4)) ,url(../images/imgg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background: #70C05B;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #999;
+}
+.button-box{
+    width: 160px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.toggle-btn{
+    width: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #70C05B;
+    border-radius: 8px;
+    margin-left: 37px;
+    display: block;
+    margin: auto;
+    transition: 1.5s;
+}
+.toggle-btn:hover {
+  width: 75%;
+  color: #fff;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin: 0 auto;
+}
+.input-filter{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+.submit-btn{
+  width: 40%;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #70C05B;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  transition: 1.5s;
+}
+.submit-btn:hover {
+    width: 65%;
+    color: #fff;
+ }
+span{
+    font-size: 12px;
+    bottom: 69px;
+    position: absolute;
+}
+span:hover {
+    color: #70C05B;
+}
+#login{
+    left: 50px;
+}
+a {
+    text-decoration: none;
+ }
